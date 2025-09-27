@@ -17,6 +17,8 @@ from .document import Document, DocumentAccess, DocumentNotification, DocumentCa
 from .document_generation import DocumentGenerationTemplate, GeneratedDocument, DocumentGenerationVariable, DocumentSignature
 from .document_workflow import DocumentWorkflow, DocumentVersion, DocumentApproval
 
+# Import roster models
+
 __all__ = [
     "DynamicData",
     "ApplicationSettings", 
@@ -42,5 +44,13 @@ __all__ = [
     "DocumentSignature",
     "DocumentWorkflow",
     "DocumentVersion",
-    "DocumentApproval"
+    "DocumentApproval",
+    "Roster",
+    "RosterParticipant",
+    "RosterTask",
+    "RosterWorkerNote",
+    "RosterRecurrence",
+    "RosterInstance",
+    "RosterStatusHistory",
+    "RosterStatus"
 ]
